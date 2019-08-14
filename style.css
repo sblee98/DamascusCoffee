@@ -1,15 +1,46 @@
-h1{font-size: 45px;color: red;
+    
+    @media screen and (min-width: 480px) {
+      body {
+       background-color: lightgreen;
+                    }
+       }
+    
+    
+    body{ 
+       max-width: 1020px;
+       width: 100%;
+       height: auto;      
+      
+      /* width: 1020px; */
+      /* height: 850px; */
+      margin: auto;
+      background-image: url("tree2.jpg");
+      background-size: cover;
+
+
+    }
+    
+    
+    h1{font-size: 45px;color: red;
        text-align: center;
        border-bottom: 1px solid gray;
        margin: 0;
-       padding: 20px;}
+       padding: 20px;
+       width: auto;
+      }
     ol{border-right: 1px solid gray;
-       width: 100px;
+       width: 150px; 
        margin: 0;
-       padding: 20px;}    
+       padding: 20px;
+       }    
     #grid{display: grid;   
-          grid-template-columns: 150px 1fr} 
+          grid-template-columns: 200px 1fr;
+          
+         
+         } 
     #grid ol{padding-left: 33px}
+    #grid ol li{font-size: 20px;
+                font-weight: bold;}
     #grid #article{padding-left: 25px}
     
     img{width: 150px;
@@ -17,3 +48,7 @@ h1{font-size: 45px;color: red;
         padding-right:150px ;
         padding-bottom:30x;
        }
+
+    
+
+   
