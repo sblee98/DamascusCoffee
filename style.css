@@ -14,8 +14,9 @@
       /* width: 1020px; */
       /* height: 850px; */
       margin: auto;
-      background-image: url("tree2.jpg");
+      background-image: url("flower4.jpg");
       background-size: cover;
+      font-family: 'Times New Roman', Times, serif;
 
 
     }
@@ -41,9 +42,11 @@
     #grid ol{padding-left: 33px}
     #grid ol li{font-size: 20px;
                 font-weight: bold;}
-    #grid #article{padding-left: 25px}
+    #grid #article{padding-left: 25px;
+   color:rgba(104, 22, 22, 0.884)
+   }
     
-    img{width: 150px;
+    img{width: 200px;
         float:right;
         padding-right:150px ;
         padding-bottom:30x;

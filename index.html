@@ -21,8 +21,9 @@
       /* width: 1020px; */
       /* height: 850px; */
       margin: auto;
-      background-image: url("tree2.jpg");
+      background-image: url("bean3.jpg");
       background-size: cover;
+      font-family: 'Times New Roman', Times, serif;
      
 
    }
@@ -36,20 +37,41 @@
                 "nav main aside"
                 "footer footer footer";
             grid-template-columns: 1fr 3fr 1fr;
-            grid-template-rows: 2fr 6fr 2fr;
+            grid-template-rows: 2fr 8fr 2fr;
+            
             border: 1px solid gray;
             
             
         }  
     
-               
-    #logo img{ width: 150px;
-              grid-area: header;
-              padding-left: 200px;
-              padding-top: 30px;
-              display: inline;
+    header{border: 1px solid green;
+        grid-area: header;
+        padding-bottom: 30px;
+        
+        
+              
+       }          
+    #logo img{
+               width: 150px;
+               grid-area: header;
+               padding-left: 20px;
+               padding-top: 20px;
+               display: inline;
+              
               }
     
+   #title{
+              grid-area: header;
+              font-size: 40px;
+              color: rgb(221, 16, 16);
+              /* text-align: center; */
+              /* font-weight: bold; */
+              display: inline;
+              padding-left: 200px;
+              padding-bottom: 20px;
+           
+           
+   }
 
     .aside img{width: 100px;
               grid-area: aside;
@@ -57,34 +79,33 @@
               padding-left: 20px;
 
     }
-    h1{
+    /* h1{ */
               grid-area: header;
-              font-size: 45px;
-              color: red;
+              font-size: 40px;
+              color: rgb(221, 16, 16);
               text-align: center;
-              font-weight: bold;
+              /* font-weight: bold; */
               display: inline;
               padding-left: 250px;
-              
-             
-
-    }
+              padding-bottom: 20px;
+                
+                 /* } */
          
      
-   header{border: 1px solid green;
-        grid-area: header;
-        
-        
-              
-       }
+  
        
    .nav{border:1px solid green;
           grid-area: nav;
-          font-size:25px;
+          /* font-size:30px; */
+          /* color: red; */
+          /* font-weight: bold; */
+         }
+    li{
+      list-style-type: square; 
+      font-size: 25px;
           color: red;
           font-weight: bold;
-         }
-     
+   }
    .main{
                border: 1px solid gray;
                grid-area: main;
@@ -109,27 +130,23 @@
             padding-top: 20px;
 
             }     
-   li{
-      list-style-type: square; 
-
-   }
-
   
 
-   
-   
-          
+            
    </style>   
   </head>
  <body>
       <div class="container">
             <header>
-                  
-                  <h1>Damascus Coffee</h1>     
                   <span id="logo">
                          
-                              <img src="logo.jpg" alt="logo">
-                   </span>
+                        <img src="logo.jpg" alt="logo">
+                  </span>
+
+                  <span id="title">
+                        Damascus Coffee
+                  </span>     
+                  
             </header>
             <section class="nav">
                   <ul>
